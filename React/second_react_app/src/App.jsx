@@ -55,20 +55,26 @@ return(
 export default App;
  */
 /* import React from 'react'; */
-import 'bootstrap/dist/css/bootstrap.min.css'
+/* import 'bootstrap/dist/css/bootstrap.min.css'
 import NameList from './component/NameList';
 import NameList2 from './component/NameList2';
 import NameList3 from './component/NameList3';
 import NameList4 from './component/NameList4';
-import NameList5 from './component/NameList5';
+import NameList5 from './component/NameList5'; */
+/* import LifeCycleFirst from './life_cycle_component/LifeCycleFirst'; */
+/* import LifecycleSecond from './component/LifeCycleSecond'; */
+import LifeCycleThree from "./life_cycle_component/LifeCycleThree";
 function App() {
   return (
     <div>
-      <NameList />
+    {/*   <NameList />
       <NameList2 />
       <NameList3 />
       <NameList4 />
-      <NameList5 />
+      <NameList5 /> */}
+     {/*  <LifeCycleFirst /> */}
+     {/*  <LifecycleSecond /> */}
+     <LifeCycleThree />
     </div>
   );
 }
