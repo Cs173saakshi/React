@@ -63,7 +63,17 @@ import NameList4 from './component/NameList4';
 import NameList5 from './component/NameList5'; */
 /* import LifeCycleFirst from './life_cycle_component/LifeCycleFirst'; */
 /* import LifecycleSecond from './component/LifeCycleSecond'; */
-import LifeCycleThree from "./life_cycle_component/LifeCycleThree";
+/* import LifeCycleThree from "./life_cycle_component/LifeCycleThree"; */
+/* import FirstComp from "./hooks/FirstComp"; */
+/* import SecondComp from "./hooks/SecondComp"; */
+/* import ThirdComp from "./hooks/ThirdComp"; */
+/* import FourthComp from "./hooks/FourthComp"; */
+/* import FifthComponent from "./hooks/FifthComp"; */
+/* import Sixth from "./hooks/Sixth"; */
+/* import Parent from "./hooks/Parent"; */
+import FirstCounter from "./custom_hooks/FirstCounter";
+import SecondCounter from "./custom_hooks/SecondCounter";
+import ThirdCounter from "./custom_hooks/ThirdCounter";
 function App() {
   return (
     <div>
@@ -74,7 +84,17 @@ function App() {
       <NameList5 /> */}
      {/*  <LifeCycleFirst /> */}
      {/*  <LifecycleSecond /> */}
-     <LifeCycleThree />
+    {/*   <LifeCycleThree />  */}
+{/*    <FirstComp /> */}
+{/* <SecondComp /> */}
+{/* <ThirdComp /> */}
+{/* <FourthComp /> */}
+{/* <FifthComponent /> */}
+{/* <Sixth /> */}
+{/* <Parent /> */}
+<FirstCounter />
+<SecondCounter />
+<ThirdCounter/>
     </div>
   );
 }
