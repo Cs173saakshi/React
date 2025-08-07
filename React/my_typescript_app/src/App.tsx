@@ -1,35 +1,38 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import './App.css';
+// import Data from './Data';
+// import PropComp from './PropComp';
+/* import Button from './Button';
+ */
+//import Card from './Card';
+//import StateComp from './StateComp';
+import FormComp from './FormComp';
 function App() {
-  const [count, setCount] = useState(0)
+  /* const handleClick = () => {
+    alert("Button clicked!");
+  }; */
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div>
+      <h1>React with TypeScript</h1>
+      {/* <Data /> */}
+      {/* <PropComp name="Saakshi" /> */}
+
+      {/* Custom Button component */}
+      {/* <Button label="Click" onClick={handleClick}  />
+      <Button label="Disabled" onClick={handleClick} disabled /> */}
+ {/* <Card>
+      <h3>Card Title</h3>
+      <p>This is a simple card with custom styles.</p>
+      </Card>
+       <Card style={{background:'pink',marginTop:'20px'}}>
+      <h3>Styled Card</h3>
+      <p>This is a card with custom styles passed via props.</p>
+      </Card> */}
+
+      {/* <StateComp /> */}
+      <FormComp />
+    </div>
+  );
 }
 
-export default App
+export default App;
