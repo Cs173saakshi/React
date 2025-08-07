@@ -41,12 +41,21 @@ import './App.css';
 import React from "react";
 import Fetch from "./components/Fetch";
 import FirstError from './error/FirstError';
+import Second from './error/SecondError';
+import ErrorBoundary from './error/ErrorBoundary';
+
 function App(){
   return (
     <div>
       <h1>API fetching in React</h1>
     {/*   <Fetch /> */}
-    <FirstError name="Saakshi" />
+   {/*  <FirstError name="Saakshi" />
+    <Second /> */}
+    <ErrorBoundary >
+      <FirstError />
+      <Second />
+    </ErrorBoundary>
+ 
     </div>
   );
 };
