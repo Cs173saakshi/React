@@ -22,3 +22,4 @@ if (taskText === "") {
   document.getElementById("taskList").appendChild(li);
   taskInput.value = "";
 }
+
